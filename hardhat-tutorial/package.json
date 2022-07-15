@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:goerli": "hardhat run scripts/deploy.ts --network goerli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.1"
+  }
+}
